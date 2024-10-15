@@ -116,7 +116,7 @@ class IdosoScreen: UIView {
                 imageView.widthAnchor.constraint(equalToConstant: 150),
                 
                 // Constraints para o pesoTextField
-                pesoTextField.topAnchor.constraint(equalTo: imageView.bottomAnchor, constant: 50),
+                pesoTextField.topAnchor.constraint(equalTo: imageView.bottomAnchor, constant: 80),
                 pesoTextField.leadingAnchor.constraint(equalTo: self.leadingAnchor, constant: 20),
                 pesoTextField.trailingAnchor.constraint(equalTo: self.trailingAnchor, constant: -20),
                 pesoTextField.heightAnchor.constraint(equalToConstant: 50),
@@ -131,6 +131,8 @@ class IdosoScreen: UIView {
                 calcularButton.topAnchor.constraint(equalTo: alturaTextField.bottomAnchor, constant: 30),
                 calcularButton.centerXAnchor.constraint(equalTo: self.centerXAnchor),
                 calcularButton.heightAnchor.constraint(equalToConstant: 50),
+                calcularButton.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 20),
+                calcularButton.trailingAnchor.constraint(equalTo: trailingAnchor, constant: -20),
                 calcularButton.widthAnchor.constraint(equalToConstant: 400),
                 
                 // Constraints para o resultadoLabel
@@ -144,7 +146,11 @@ class IdosoScreen: UIView {
     }
     
     
+#Preview("UIkit"){
     
+    IdosoViewController()
+    
+}
     
     
     

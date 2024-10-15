@@ -15,6 +15,8 @@
 		CD19B36F2CB9AB2D001FA058 /* IdosoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD19B36E2CB9AB2D001FA058 /* IdosoViewController.swift */; };
 		CD19B3712CB9B088001FA058 /* HomemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD19B3702CB9B088001FA058 /* HomemViewController.swift */; };
 		CD19B3732CB9B09A001FA058 /* HomemScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD19B3722CB9B09A001FA058 /* HomemScreen.swift */; };
+		CDA2E7512CBEE0F200935BBD /* HomeStardScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA2E7502CBEE0F200935BBD /* HomeStardScreen.swift */; };
+		CDA2E7532CBEE12600935BBD /* HomeStardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA2E7522CBEE12600935BBD /* HomeStardViewController.swift */; };
 		CDEA28BA2CB993CE008DA591 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEA28B92CB993CE008DA591 /* HomeScreen.swift */; };
 		CDEA28BC2CB993ED008DA591 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEA28BB2CB993ED008DA591 /* HomeViewController.swift */; };
 		CDEA28BE2CB99F6F008DA591 /* MulherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEA28BD2CB99F6F008DA591 /* MulherViewController.swift */; };
@@ -32,6 +34,8 @@
 		CD19B36E2CB9AB2D001FA058 /* IdosoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdosoViewController.swift; sourceTree = "<group>"; };
 		CD19B3702CB9B088001FA058 /* HomemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomemViewController.swift; sourceTree = "<group>"; };
 		CD19B3722CB9B09A001FA058 /* HomemScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomemScreen.swift; sourceTree = "<group>"; };
+		CDA2E7502CBEE0F200935BBD /* HomeStardScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeStardScreen.swift; sourceTree = "<group>"; };
+		CDA2E7522CBEE12600935BBD /* HomeStardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeStardViewController.swift; sourceTree = "<group>"; };
 		CDEA28B92CB993CE008DA591 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
 		CDEA28BB2CB993ED008DA591 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		CDEA28BD2CB99F6F008DA591 /* MulherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MulherViewController.swift; sourceTree = "<group>"; };
@@ -52,7 +56,7 @@
 		CD125B2F2CB6ED800063A2C4 = {
 			isa = PBXGroup;
 			children = (
-				CD19B3742CB9B25D001FA058 /* Login  */,
+				CDA2E74F2CBEE0D900935BBD /* HomeStart */,
 				CD125B5E2CB6EECC0063A2C4 /* Homem */,
 				CDEA28C22CB9A7FA008DA591 /* Criança */,
 				CDEA28BF2CB9A6F6008DA591 /* Mulher */,
@@ -99,11 +103,13 @@
 			path = Resource;
 			sourceTree = "<group>";
 		};
-		CD19B3742CB9B25D001FA058 /* Login  */ = {
+		CDA2E74F2CBEE0D900935BBD /* HomeStart */ = {
 			isa = PBXGroup;
 			children = (
+				CDA2E7502CBEE0F200935BBD /* HomeStardScreen.swift */,
+				CDA2E7522CBEE12600935BBD /* HomeStardViewController.swift */,
 			);
-			path = "Login ";
+			path = HomeStart;
 			sourceTree = "<group>";
 		};
 		CDEA28B82CB992C7008DA591 /* Home  */ = {
@@ -209,6 +215,7 @@
 			files = (
 				CDEA28BE2CB99F6F008DA591 /* MulherViewController.swift in Sources */,
 				CD19B36D2CB9AB09001FA058 /* IdosoScreen.swift in Sources */,
+				CDA2E7532CBEE12600935BBD /* HomeStardViewController.swift in Sources */,
 				CDEA28C12CB9A712008DA591 /* MulherScreen.swift in Sources */,
 				CDEA28BA2CB993CE008DA591 /* HomeScreen.swift in Sources */,
 				CD19B36F2CB9AB2D001FA058 /* IdosoViewController.swift in Sources */,
@@ -217,6 +224,7 @@
 				CD125B682CB6EED40063A2C4 /* SceneDelegate.swift in Sources */,
 				CD19B3732CB9B09A001FA058 /* HomemScreen.swift in Sources */,
 				CD19B3712CB9B088001FA058 /* HomemViewController.swift in Sources */,
+				CDA2E7512CBEE0F200935BBD /* HomeStardScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
